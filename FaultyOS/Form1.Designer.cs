@@ -35,7 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.killRateBox = new System.Windows.Forms.NumericUpDown();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.killButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.killRateBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +47,7 @@
             // 
             // runButton
             // 
-            this.runButton.Location = new System.Drawing.Point(631, 456);
+            this.runButton.Location = new System.Drawing.Point(721, 464);
             this.runButton.Name = "runButton";
             this.runButton.Size = new System.Drawing.Size(75, 38);
             this.runButton.TabIndex = 1;
@@ -118,17 +117,6 @@
             this.checkBox1.Text = "Enable Output";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // killButton
-            // 
-            this.killButton.Enabled = false;
-            this.killButton.Location = new System.Drawing.Point(721, 456);
-            this.killButton.Name = "killButton";
-            this.killButton.Size = new System.Drawing.Size(75, 38);
-            this.killButton.TabIndex = 1;
-            this.killButton.Text = "Kill All";
-            this.killButton.UseVisualStyleBackColor = true;
-            this.killButton.Click += new System.EventHandler(this.killButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -139,7 +127,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.outputBox);
-            this.Controls.Add(this.killButton);
             this.Controls.Add(this.runButton);
             this.Controls.Add(this.commandBox);
             this.Name = "Form1";
@@ -159,7 +146,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown killRateBox;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button killButton;
     }
 }
 
