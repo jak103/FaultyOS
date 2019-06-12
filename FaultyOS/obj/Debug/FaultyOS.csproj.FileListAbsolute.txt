@@ -1,0 +1,10 @@
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\bin\Debug\FaultyOS.exe.config
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\bin\Debug\FaultyOS.exe
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\bin\Debug\FaultyOS.pdb
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.csprojAssemblyReference.cache
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.Form1.resources
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.Properties.Resources.resources
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.csproj.GenerateResource.cache
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.csproj.CoreCompileInputs.cache
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.exe
+C:\Users\jchristensen\source\repos\FaultyOS\FaultyOS\obj\Debug\FaultyOS.pdb
