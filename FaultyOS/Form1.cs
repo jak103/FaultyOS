@@ -33,11 +33,19 @@ namespace FaultyOS
             {
                 if (processes.Count > 0)
                 {
+                    PrintText(string.Format("Looking for child processes {0}", processes.Count));
                     List<Process> children = new List<Process>();
+
                     foreach (Process p in processes)
                     {
                         List<Process> temp = GetChildProcesses(p);
-                        children.AddRange(temp);                        
+                        foreach (Process t in temp)
+                        {
+                            if (!processes.Contains(t))
+                            {
+                                children.Add(t);
+                            }
+                        }
                     }
 
                     processes.AddRange(children);
@@ -53,6 +61,10 @@ namespace FaultyOS
                     {
                         PrintText("Killing process: " + deadProcess.ProcessName + " (" + deadProcess.Id + ")");
                         deadProcess.Kill();
+                    }
+                    else
+                    {
+                        PrintText("Not killing process because it is already dead...");
                     }
                 }
             }
